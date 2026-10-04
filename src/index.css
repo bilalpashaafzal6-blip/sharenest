@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-urdu: 'Noto Sans Arabic', 'Noto Nastaliq Urdu', Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}
+
+.font-urdu {
+  font-family: var(--font-urdu);
+  line-height: 1.6;
+}
+
+[dir="rtl"] {
+  text-align: right;
+}

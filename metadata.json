@@ -1,0 +1,6 @@
+{
+  "name": "ShareNest - Free Community Giveaways",
+  "description": "A clean, warm community sharing and donation platform where neighbors give away items they no longer need for free to people in need.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
